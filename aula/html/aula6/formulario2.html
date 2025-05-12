@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="#" method="get">
+
+        <label for="cidades">Escolha sua cidade</label>
+        <select name="" id="cidades">
+
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="SC">Santa Catarina</option>
+
+        </select><br>
+
+
+        <label for="tT">Escolha o Transporte:</label>
+        <input autocomplete="on" list="Transporte" name="tT" id="tT" placeholder="Seu Transporte" />
+        <datalist id="Transporte">
+            <option value="BMX"></option>
+            <option value="Carro"></option>
+            <option value="Barco"></option>
+        </datalist><br>
+
+        <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="90" step="10" />
+        <label for="cowbell">Cowbell</label>
+    </form>
+
+</body>
+</html>
