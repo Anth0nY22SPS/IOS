@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/img/tim.png" alt="">
+    </header>
+
+    <main>
+        <br>
+        <form action="#" id="contrataPlano">
+            
+            <fieldset id="dados_clientes">
+                <legend>dados do clientes</legend>
+                    <label for="nomeCompleto">Nome:</label><br>
+                    <input type="text" name="nomeCompleto" id="nomeCompleto"><br>
+                    
+                    <label for="dataNacimento">Data de Nascimento:</label><br>
+                    <input type="date" name="dataNacimento" id="dataNacimento"><br>
+                    
+                    
+                    <label for="documentoCPF">CPF:</label><br>
+                    <input type="text" name="documentoCPF" id="documentoCPF" minlength="11" maxlength="11"><br>
+                    
+                    <label for="cep">CEP:</label><br>
+                    <input type="text" name="cep" id="cep" minlength="8" maxlength="8"><br>
+                    
+                    <label for="email">seu email:</label><br>
+                    <input type="email" name="email" id="email"><br>
+
+                    <label for="numeroTelefone">Telefone:</label><br>
+                    <input type="tel" name="numeroTelefone" id="numeroTelefone" minlength="11" maxlength="11"> <br>
+     
+            </fieldset>
+
+            <fieldset id="Planos">
+                <legend>Nossos Planos</legend>
+
+                <label for="Planoschip"><img src="/img/plano1.PNG" alt="" class="Imagem"></label>
+                <input type="radio" id="Planoschip" name="Planoschip">
+                
+                <label for="Planoschip"><img src="/img/plano2.PNG" alt="" class="Imagem"></label>
+                <input type="radio" id="Planoschip" name="Planoschip">
+                
+                <label for="Planoschip"><img src="/img/plano3.PNG" alt="" class="Imagem"></label>
+                <input type="radio" id="Planoschip" name="Planoschip">
+            </fieldset>
+
+            <input type="submit" value="Fechar Planos">
+
+        </form>
+
+    </main>
+</body>
+</html>
