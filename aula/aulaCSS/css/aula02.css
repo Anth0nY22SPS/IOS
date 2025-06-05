@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-direction: row-reverse;
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+    background-color: bisque;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixa{
+    display: flex;
+    height: 150px;
+    width: 200px;
+}
+
+.caixa img{
+    height: 150px;
+    width: 200px;
+}
+
+.caixa button{
+    background-color: rgb(236, 193, 143);
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;  
+    align-self: center;
+}
+
+.caixa a{
+    color: black;
+    text-decoration: none;
+}
+
+.caixa p{
+    align-self: center;
+}
