@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pai{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    margin-top: 10px;
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    font-size: 170px;
+    flex: 1 auto;
+}
+
+/* 
+
+flex-basis: 300px;  determina tamanha minimo inicial dos elementos flesivel
+flex-grow: 1px; o quadrodo ocupa mais espaço   
+flex-shrink: 1px;  diminui mais lento  
+
+propriedade flex usa os 3 flex
+1 grow | 2 shrink | 3 basic 
+*/
